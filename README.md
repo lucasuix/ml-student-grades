@@ -1,42 +1,36 @@
 
 # Grade Prediction w/ Machine Learning
 
-## This repository contains a python virtual environment with the dependecies needed already installed
+## Dependencies
+This repository contains a Python virtual environment with the dependencies needed already installed.
 
-If for any reason, the python environment doesn't work, heres how to set up your own:
+If, for any reason, the Python environment doesn't work, here's how to set up your own:
 
 Open the terminal and type:
 
 `$ python -m venv path/to/your/virtual/environment`
 
-or
+or, if you're already in your project's directory:
 
 `$ python -m venv .`
 
-If you're already in the directory you want to start the virtual environment.
-
-Last, activate the virtual environment, using:
+Lastly, activate the virtual environment using:
 
 `$ source bin/activate`
 
-
-Next we wanna install the depencies we gonna be using for this project.
+Next, we want to install the dependencies we will be using for this project.
 
 `$ pip install scikit-learn`
-
 `$ pip install pandas`
 
 ## License
-
 Concerning the dataset (students directory and its content):
 
-[Cortez,Paulo]. [2014]. Student Performance. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
+Cortez, Paulo. (2014). Student Performance. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
 
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
-This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
-
-
+This license allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
 Concerning the rest of the project:
 
