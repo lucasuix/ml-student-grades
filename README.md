@@ -9,7 +9,7 @@ To retrain the model and export the best model, if found one, as 'studentmodel.p
 
 `$ python regression.py`
 
-To make a series of prediction of a random collection of data from the dataset:
+To make a series of predictions on a random collection of data from the dataset:
 
 `$ python predict.py`
 
