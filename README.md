@@ -1,6 +1,18 @@
 
 # Grade Prediction w/ Machine Learning
 
+## Usage
+
+Make sure you're in the 'main' directory.
+
+To retrain the model and export the best model, if found one, as 'studentmodel.pickle'
+
+`$ python regression.py`
+
+To make a series of prediction of a random collection of data from the dataset:
+
+`$ python predict.py`
+
 ## Dependencies
 This repository contains a Python virtual environment with the dependencies needed already installed.
 
