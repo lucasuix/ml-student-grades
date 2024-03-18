@@ -5,19 +5,27 @@
 
 In the root directory of the project, start the virtual environment with:
 
-```$ source bin/activate```
+```
+$ source bin/activate
+```
 
 Then open the `main` directory with:
 
-```$ cd main```
+```
+$ cd main
+```
 
 To retrain the model and export the best model as as 'studentmodel.pickle', if a better model is found:
 
-```$ python regression.py```
+```
+$ python regression.py
+```
 
 To make a series of predictions on a random collection of data from the dataset:
 
-```$ python predict.py```
+```
+$ python predict.py
+```
 
 ## Dependencies
 This repository contains a Python virtual environment with the dependencies needed already installed.
@@ -26,20 +34,28 @@ If, for any reason, the Python environment doesn't work, here's how to set up yo
 
 Open the terminal and type:
 
-```$ python -m venv path/to/your/virtual/environment```
+```
+$ python -m venv path/to/your/virtual/environment
+```
 
 or, if you're already in your project's directory:
 
-```$ python -m venv .```
+```
+$ python -m venv .
+```
 
-Lastly, activate the virtual environment using:
+Then, activate the virtual environment using:
 
-```$ source bin/activate```
+```
+$ source bin/activate
+```
 
 Next, we want to install the dependencies we will be using for this project.
 
-```$ pip install scikit-learn```
-```$ pip install pandas```
+```
+$ pip install scikit-learn
+$ pip install pandas
+```
 
 Finally, copy the `main` folder of this repository to your virtual environment dir.
 
