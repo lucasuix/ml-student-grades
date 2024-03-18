@@ -3,9 +3,15 @@
 
 ## Usage
 
-Make sure you're in the 'main' directory.
+In the root directory of the project, start the virtual environment with:
 
-To retrain the model and export the best model, if found one, as 'studentmodel.pickle'
+`$ source bin/activate`
+
+Then open the main directory with:
+
+`$ cd main`
+
+To retrain the model and export the best model as as 'studentmodel.pickle', if a better model is found:
 
 `$ python regression.py`
 
